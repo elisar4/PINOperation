@@ -6,7 +6,7 @@
 //
 //
 
-#import "PINOperationQueue.h"
+#import <PINOperation/PINOperationQueue.h>
 #import <pthread.h>
 
 @class PINOperation;

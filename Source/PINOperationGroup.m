@@ -6,8 +6,8 @@
 //  Copyright © 2016 Pinterest. All rights reserved.
 //
 
-#import "PINOperationGroup.h"
-#import "PINOperation.h"
+#import <PINOperation/PINOperationGroup.h>
+#import <PINOperation/PINOperation.h>
 #import <pthread.h>
 
 @interface NSNumber (PINGroupOperationQueue) <PINGroupOperationReference>
